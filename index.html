@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Curso Practico JavaScript</title>
+</head>
+<body>
+    <nav>
+        <ul class="menu-h">
+            <li><a href="#">Inicio</a></li>
+            <li class="btn">
+                <a href="#" onclick="mostrarMenu()">Idioma</a>
+                <ul class="menu-ver">
+                    <a href="#" class="cerrar" onclick="ocultarMenu()">X</a>
+                    <div class="" id="myid"></div>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+
+    <h1>Manipulacion del DOM basica</h1>
+
+    <input id="calculo1" placeholder="Escribe algo aqui">
+    <input id="calculo2" placeholder="Escribe algo aqui">
+
+    <button id="btnCalcular">Calcular</button>
+
+    <p id="result"></p>
+
+    <script src="app.js"></script>
+</body>
+</html>
